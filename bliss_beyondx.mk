@@ -29,18 +29,18 @@ TARGET_HAVE_FOD := true
 $(call inherit-product, device/samsung/beyondx/device.mk)
 
 ## Boot Animation
-TARGET_BOOTANIMATION_HALF_RES := true
+TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_SCREEN_HEIGHT := 3040
 TARGET_SCREEN_WIDTH := 1440
 
 ## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_beyondx
+PRODUCT_NAME := bliss_beyondx
 PRODUCT_DEVICE := beyondx
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G977B

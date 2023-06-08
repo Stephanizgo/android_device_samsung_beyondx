@@ -15,7 +15,7 @@
 #
 
 # Inherit from the common tree
-$(call inherit-product, device/samsung/exynos9820-common/exynos9820.mk)
+$(call inherit-product, device/samsung/exynos9820-common/common.mk)
 
 # Inherit proprietary files
 $(call inherit-product, vendor/samsung/beyondx/beyondx-vendor.mk)

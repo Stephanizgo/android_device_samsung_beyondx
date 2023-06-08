@@ -14,7 +14,7 @@
 # limitations under the License.
 
 ## Inherit from the common tree
-include device/samsung/exynos9820-common/BoardConfig9820.mk
+include device/samsung/exynos9820-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
 include vendor/samsung/beyondx/BoardConfigVendor.mk
